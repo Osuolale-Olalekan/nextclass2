@@ -1,7 +1,7 @@
-import { Product } from "@/types"
-import Image from "next/image"
-import Link from "next/link"
-import React from "react"
+import { Product } from "@/types";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
@@ -22,7 +22,7 @@ const ProductCard = ({ product }: { product: Product }) => {
       <p className="font-semibold">${product.price}</p>
       <p className="line-clamp-2">{product.description}</p>
     </Link>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;
