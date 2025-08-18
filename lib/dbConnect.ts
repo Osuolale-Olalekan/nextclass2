@@ -37,4 +37,6 @@ const dbConnect = async ()=>{
     return cache.conn
 }
 
-module.exports = dbConnect
+export default dbConnect;
+
+// module.exports = dbConnect
