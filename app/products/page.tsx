@@ -1,10 +1,10 @@
-import ProductCard from "@/components/ProductCard"
-import ProductsList from "@/components/Products"
+// import ProductCard from "@/components/ProductCard"
+// import ProductsList from "@/components/Products"
 import ProductsListCL from "@/components/ProductsCL"
-import ProductsSkeleton from "@/components/ProductsSkeleton"
+// import ProductsSkeleton from "@/components/ProductsSkeleton"
 import { Product } from "@/types"
-import { getProducts } from "@/utils"
-import { Suspense } from "react"
+// import { getProducts } from "@/utils"
+// import { Suspense } from "react"
 
 export const generateStaticParams = async () => {
   const productsResponse = await fetch("https://fakestoreapi.com/products")

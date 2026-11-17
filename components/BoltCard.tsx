@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const BoltCard = ({
   title,
   desc,
@@ -9,7 +11,7 @@ const BoltCard = ({
 }) => {
   return (
     <div className="flex-1 rounded bg-white shadow overflow-hidden group">
-      <img
+      <Image
         className="h-52 w-full object-cover group-hover:scale-110 transition duration-500"
         src="https://res.cloudinary.com/dugcmkito/image/upload/v1751315857/Ryan_5_4_bca957ef3e.png"
         alt=""
